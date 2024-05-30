@@ -1,4 +1,5 @@
-const allowedCors = [" https://yourdomain.saitdomen.nomoredomainswork.ru"];
+const allowedCors = [" https://yourdomain.saitdomen.nomoredomainswork.ru", 'http://localhost:3000',
+    'http://localhost:3001',];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
